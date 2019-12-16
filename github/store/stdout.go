@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/src-d/metadata-retrieval/github/graphql"
+	"github.com/athenianco/metadata-retrieval/github/graphql"
 )
 
 type Stdout struct{}

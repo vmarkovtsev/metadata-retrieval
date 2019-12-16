@@ -1,5 +1,5 @@
 language: go
-go_import_path: github.com/src-d/metdata-retrieval
+go_import_path: github.com/athenianco/metdata-retrieval
 go:
   - 1.13.x
 

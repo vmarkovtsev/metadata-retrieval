@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/src-d/metadata-retrieval/testutils"
+	"github.com/athenianco/metadata-retrieval/testutils"
 
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"

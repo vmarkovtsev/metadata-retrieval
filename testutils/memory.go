@@ -3,7 +3,7 @@ package testutils
 import (
 	"context"
 
-	"github.com/src-d/metadata-retrieval/github/graphql"
+	"github.com/athenianco/metadata-retrieval/github/graphql"
 
 	"gopkg.in/src-d/go-log.v1"
 )

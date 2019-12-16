@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/src-d/metadata-retrieval/github"
+	"github.com/athenianco/metadata-retrieval/github"
 )
 
 type DownloadersPool struct {

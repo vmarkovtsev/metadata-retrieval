@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/src-d/metadata-retrieval/github/graphql"
+	"github.com/athenianco/metadata-retrieval/github/graphql"
 
 	"github.com/lib/pq"
 )

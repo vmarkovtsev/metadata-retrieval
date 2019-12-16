@@ -8,9 +8,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/src-d/metadata-retrieval/database"
-	"github.com/src-d/metadata-retrieval/github"
-	"github.com/src-d/metadata-retrieval/github/store"
+	"github.com/athenianco/metadata-retrieval/database"
+	"github.com/athenianco/metadata-retrieval/github"
+	"github.com/athenianco/metadata-retrieval/github/store"
 	"golang.org/x/oauth2"
 	"gopkg.in/src-d/go-cli.v0"
 	"gopkg.in/src-d/go-log.v1"

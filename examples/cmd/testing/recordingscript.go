@@ -14,8 +14,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/src-d/metadata-retrieval/github"
-	"github.com/src-d/metadata-retrieval/testutils"
+	"github.com/athenianco/metadata-retrieval/github"
+	"github.com/athenianco/metadata-retrieval/testutils"
 
 	"github.com/motemen/go-loghttp"
 	"golang.org/x/oauth2"

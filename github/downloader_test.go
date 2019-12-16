@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/src-d/metadata-retrieval/database"
-	"github.com/src-d/metadata-retrieval/github/store"
-	"github.com/src-d/metadata-retrieval/testutils"
+	"github.com/athenianco/metadata-retrieval/database"
+	"github.com/athenianco/metadata-retrieval/github/store"
+	"github.com/athenianco/metadata-retrieval/testutils"
 
 	"github.com/cenkalti/backoff"
 	"github.com/lib/pq"

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/src-d/metadata-retrieval/github/graphql"
-	"github.com/src-d/metadata-retrieval/utils/ctxlog"
+	"github.com/athenianco/metadata-retrieval/github/graphql"
+	"github.com/athenianco/metadata-retrieval/utils/ctxlog"
 
 	"github.com/shurcooL/githubv4"
 	"gopkg.in/src-d/go-log.v1"

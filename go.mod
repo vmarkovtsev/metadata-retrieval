@@ -1,4 +1,4 @@
-module github.com/src-d/metadata-retrieval
+module github.com/athenianco/metadata-retrieval
 
 go 1.12
 

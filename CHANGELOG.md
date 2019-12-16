@@ -10,29 +10,6 @@ The changes listed under `Unreleased` section have landed in master but are not 
 
 ## [Unreleased]
 
-### Breaking changes
-
-- Change some api for internal simplification ([#72](https://github.com/src-d/metadata-retrieval/pull/72)):
-  - change signature of `NewDownloader`: now the accepted params are `(httpClient *http.Client, storer Storer)`
-  - remove `NewStdoutDownloader` and `NewMemoryDownloader` in favor of `NewDownloader`
-
-### Changed
-
-- Expose `Storer` ([#72](https://github.com/src-d/metadata-retrieval/pull/72)).
-- Change db schema for Github metadata to fit the common schema ([#35](https://github.com/src-d/metadata-retrieval/issues/35))
-- Tune first fat request for each repo by changing the amount of issues and PRs to fetch ([#69](https://github.com/src-d/metadata-retrieval/issues/69))
-
-
-## [v0.1.1](https://github.com/src-d/metadata-retrieval/releases/tag/v0.1.1) - 2019-10-24
-
-### Fixed
-
-- Missing values for nullable `timestamptz` where being inserted as `0001-01-01 00:00:00+00:00` instead of `null`. The affected fields where `issues_versioned.closed_at`, `pull_requests_versioned.closed_at` and `pull_requests_versioned.merged_at` ([#74](https://github.com/src-d/metadata-retrieval/issues/74)).
-- Avoid retrying requests with bad credentials ([#23](https://github.com/src-d/metadata-retrieval/issues/23)).
-
-
-## [v0.1.0](https://github.com/src-d/metadata-retrieval/releases/tag/v0.1.0) - 2019-10-23
-
 Initial release for downloading metadata from git hostings. Available commands:
 
 - Download organization
@@ -42,3 +19,7 @@ Initial release for downloading metadata from git hostings. Available commands:
 Supported providers:
 
 - Github
+
+## [Previous work]
+
+This repository is the continuation of [src-d/metadata-retrieval](https://github.com/src-d/metadata-retrieval). In case you're interested in relases on previous work, please have a look at its [CHANGELOG](https://github.com/src-d/metadata-retrieval/blob/master/CHANGELOG.md).

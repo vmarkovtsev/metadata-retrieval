@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/require"
 	log "gopkg.in/src-d/go-log.v1"
 
-	"github.com/src-d/metadata-retrieval/utils/ctxlog"
+	"github.com/athenianco/metadata-retrieval/utils/ctxlog"
 )
 
 func TestEmptyGet(t *testing.T) {
